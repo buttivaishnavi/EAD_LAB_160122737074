@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body class="w3-black">
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+    <img src="img.jpg" alt="Student Avatar" style="width:100%">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+    </a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+    </a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-code w3-xxlarge"></i>
+        <p>PROJECTS</p>
+    </a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+    </a>
+</nav>
+
+<!-- Navbar for small screens -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+        <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+        <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div class="w3-padding-large" id="main">
+    <!-- Header -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Butti Vaishnavi</h1>
+        <p>Information Technology Student</p>
+        <img src="img1.jpg" alt="Student" class="w3-image" width="92" height="1">
+    </header>
+
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey">About Me</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p>Hello! I'm a passionate Information Technology student with a keen interest in web development, data science, and AI. I enjoy learning new technologies and applying them in projects.</p>
+        
+        <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+        <p class="w3-wide">Web Development</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:90%"></div>
+        </div>
+        <p class="w3-wide">Python Programming</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+        </div>
+        <p class="w3-wide">Data Analysis</p>
+        <div class="w3-white">
+            <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+        </div><br>
+        
+        <h3 class="w3-padding-16 w3-text-light-grey">Education</h3>
+        <p>Information Technology Branch</p>
+        <p>Chaitanya Bharati Institute of Technology, 2022 - 2025</p>
+    </div>
+  
+    <!-- Projects Section -->
+    <div class="w3-padding-64 w3-content" id="projects">
+        <h2 class="w3-text-light-grey">My Projects</h2>
+        <hr style="width:200px" class="w3-opacity">
+        
+        <!-- Project 1 -->
+        <div class="w3-container w3-white w3-margin-bottom">
+            <h3 class="w3-text-grey">LGS Grocery Store</h3>
+            <p>The Local Online Grocery Store project is a web application developed using HTML, CSS, and JavaScript, designed to bring local grocery stores online. The platform offers a user-friendly interface where customers can browse products, search and filter items, manage a shopping cart, and complete purchases with ease. It includes features such as secure user authentication, a streamlined checkout process, and an admin interface for managing inventory and orders. This project aims to enhance the shopping experience for customers while helping local businesses reach a broader audience through digital means.</p>
+        </div>
+        
+       
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Contact Me</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <div class="w3-section">
+            <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Warangal,Telangana,India</p>
+            <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone:8919787706</p>
+            <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Email:buttivaishnavi@gmail.com</p>
+        </div><br>
+        
+        <p>Feel free to reach out for collaborations or just a friendly chat.</p>
+        
+        <form action="/action_page.php" target="_blank">
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+            <p>
+                <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+            </p>
+        </form>
+    </div>
+  
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <p class="w3-medium">© 2024 Vaishnavi. All Rights Reserved.</p>
+    </footer>
+</div>
+
+<script src="portfolio.js"></script>
+
+</body>
+</html>
+
